@@ -1,7 +1,5 @@
 package com.pxk;
 
-import java.awt.image.IndexColorModel;
-
 /**
  * @author pxk
  * @create 2022-10-24-15:14
