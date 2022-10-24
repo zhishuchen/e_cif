@@ -24,9 +24,9 @@ public class CustomerList {
 
     //替换客户
     public boolean replaceCustomer(int index,Customer customer){
-        if (index>0&&index<total){
+        if (index>=0&&index<total){
             customers[index] = customer;
-            return false;
+            return true;
         }
         return false;
     }
